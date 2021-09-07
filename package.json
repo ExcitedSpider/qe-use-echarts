@@ -4,7 +4,7 @@
   "description": "react hooks to use echarts",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
-    "release": "npm publish --registry=https://registry.npmjs.org/"
+    "release": "npm run build && npm publish --registry=https://registry.npmjs.org/"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
