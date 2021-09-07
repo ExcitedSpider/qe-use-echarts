@@ -2,11 +2,17 @@
   "name": "use-echarts",
   "version": "1.0.0",
   "description": "react hooks to use echarts",
-  "main": "index.js",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
     "release": "npm publish --registry=https://registry.npmjs.org/"
   },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib",
+    "es",
+    "src"
+  ],
   "author": "qefeng",
   "license": "ISC",
   "devDependencies": {
