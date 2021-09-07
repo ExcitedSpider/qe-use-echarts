@@ -1,0 +1,38 @@
+{
+  "name": "use-echarts",
+  "version": "1.0.0",
+  "description": "react hooks to use echarts",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "release": "npm publish --registry=https://registry.npmjs.org/"
+  },
+  "author": "qefeng",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.6.1",
+    "@types/react": "^17.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "rollup": "^2.56.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-ts": "^1.4.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "echarts": "^5.2.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2"
+  }
+}
