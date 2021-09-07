@@ -1,6 +1,6 @@
 {
-  "name": "use-echarts",
-  "version": "1.0.0",
+  "name": "qe-use-echarts",
+  "version": "0.0.1",
   "description": "react hooks to use echarts",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
